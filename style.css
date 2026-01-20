@@ -241,8 +241,9 @@ width: 160px;
 .why-text h2{
     text-align: center;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 38px;
     margin-bottom: 35px;
+    /* margin-top: 0px; */
 }
 
 .why-card{
@@ -258,6 +259,8 @@ width: 160px;
     ;
   
 }
+
+
 
 
 .why-card>*{
@@ -398,11 +401,13 @@ width: 160px;
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 30px;
+    /* margin-top:100px; */
 }
 
 iframe{
     width: 100%;
     height: 100%;
+    border-radius: 9px 9px 0 0;
 }
 
 .feature-card{
@@ -423,7 +428,7 @@ iframe{
 }
 
 .f-card-1, .f-card-2, .f-card-3{
-    background-color: #351165;
+    background-color: #230E3D;
     height: 100%;
     text-align: start;
     border-radius: 10px;
@@ -490,7 +495,104 @@ iframe{
     margin-bottom: 15px;
 }
 
+.host-section{
+    background-color:#1A0B2E;
+    color: white;
+    text-align: center;
+    padding: 40px 100px;
+}
 
+.host-text {
+    font-size: 25px;
+    margin-bottom: 35px;
+    
+}
+
+.host-card{
+    display: flex;
+    /* border: 2px solid red; */
+    background-color: #230E3D;
+    text-align: left;
+    padding: 50px 20px;
+    height: 250px;
+    border-radius: 15px;
+
+}
+
+.host-card>img{
+    width: 30%;
+    height: 100%;
+}
+
+.host-card-text{
+    margin-left: 20px;
+}
+
+.host-card-text h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+
+
+}
+
+.host-card-text p{
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.596);
+    margin-bottom: 25px;
+}
+
+.host-icon img{
+    width: 30px;
+    height: 30px;
+}
+
+.host-icon>*{
+    border: 1px solid rgba(255, 255, 255, 0.185);
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+footer{
+    /* width: 100%; */
+    color: white;
+    background-image: url(./assets/footer-bg.png);
+    height: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    /* margin-top: -2%; */
+    padding: 8% 0%;
+}
+
+footer h1{
+    font-size: 50px;
+}
+
+.footer-icon{
+    /* border:2px solid red ; */
+    height: 40%;
+    display: flex;
+    width: 45%;
+    align-items: center;
+    font-size: 14px;
+    margin-top: -.5%;
+    color:rgba(255, 255, 255, 0.76);
+    
+    
+
+}
+
+.footer-icon img{
+    width: 15%;
+}
+
+footer p{
+    font-size: 11px;
+    margin-top: 30px;
+    color: rgba(255, 255, 255, 0.9);
+}
 
 
 
@@ -627,6 +729,13 @@ iframe{
     "card-five";
 }
 
+.why-text h2{
+    font-size: 26px;
+    margin-top: 50px;
+}
+
+
+
 .card-1{
     width: 100%;
     height: 100%;
@@ -685,16 +794,59 @@ iframe{
     text-align: start;
     /* border: 2px solid red; */
    
-    width: 90%;
+    width: 100%;
     
 }
 
 
 
 .f-card-1-text, .f-card-2-text, .f-card-3-text{
-    background-color: #351165;
+    background-color: #230E3D;
     /* border: 2px solid red; */
     border-radius: 0px 0px 10px 10px;
+}
+
+.host-section{
+    padding: 10px 10%;
+}
+
+.host-text{
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.host-card{
+    flex-direction: column;
+    text-align: center;
+    height: 50%;
+    margin-bottom: 25px;
+}
+
+footer{
+    background-image: 100% 100% ;
+    background-size:cover;
+    /* background-position: center cover; */
+   
+    
+}
+
+.footer-icon{
+    /* border: 2px solid red; */
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 60%;
+    padding: 20px;
+    justify-items: center;
+    font-size: 13px;
+    
+}
+
+
+footer p{
+    font-size: 12px;
+    
+    
 }
 
 
