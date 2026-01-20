@@ -180,6 +180,56 @@ width: 160px;
 }
 
 
+/* About section */
+
+
+.about-section{
+    background-color:#1A0B2E ;
+    color: white;
+}
+
+.about-text{
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 100px 0;
+}
+
+.about-text h2{
+    /* margin-top: 80px; */
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 15px;
+    
+
+}
+
+.about-text p{
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.747);
+    width: 60%;
+    line-height: 25px;
+}
+
+.about-num{
+    border-top: 1px solid rgba(255, 255, 255, 0.132);
+    padding: 50px 0;
+    display: flex;
+    text-align: center;
+    width: 80%;
+}
+
+.about-num h1{
+    color: #00FF88;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.about-num p{
+    font-size: 9px;
+    color: rgba(255, 255, 255, 0.678);
+    
+}
+
 
 
 
@@ -229,7 +279,7 @@ width: 160px;
     }
 
     .hero-section{
-        background-size: 35% 30%, 100% 100%;
+        background-size: 38% 30%, 100% 100%;
         background-position: center top 30%, top ;
         /* width: 100%; */
       
@@ -239,15 +289,15 @@ width: 160px;
 
     .new-badge{
         position: relative;
-        top:-25%;
+        top:-15%;
         left: 80%;
     }
 
     .hero-img img {
-        width: 100%;
-        height: 30%;
+        width: 90%;
+        height: 25%;
         position: relative;
-        top: 12%;
+        top: 20%;
        
        
         
@@ -278,6 +328,30 @@ width: 160px;
 
     margin-left: -2%;
 
+}
+
+.about-text h2{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.about-text p{
+    width: 85%;
+    font-size: 14px;
+    line-height: 15px;
+    
+
+}
+
+
+.about-num{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+
+.about-num h1{
+    font-size: 35px;
 }
 
 
