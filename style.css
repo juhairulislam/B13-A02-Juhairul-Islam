@@ -451,29 +451,31 @@ iframe{
 .time-duration{
     display: flex;
     /* border: 2px solid gold; */
-    width: 30%;
+    width: 26%;
     margin-left: 0%;
     height: 1%;
     align-items: start;
+    font-size: small;
+    color: #00FF88;
     
     
   
 }
 
-.time-duration>p{
-    text-align: center;
+.time-duration>img{
+    align-items: start;
 }
 
 
 .f-card-2-text h3{
     font-size: 18px;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .f-card-2-text p{
     font-size: 12px;
-    margin-bottom: 22px;
+    margin-bottom: 15px;
 }
 
 
@@ -539,7 +541,7 @@ iframe{
     }
 
     .hero-section{
-        background-size: 38% 30%, 100% 100%;
+        background-size: 40% 30%, 100% 100%;
         background-position: center top 30%, top ;
         /* width: 100%; */
       
@@ -633,26 +635,40 @@ iframe{
 }
 
 .card-1 img{
-    width: 8%;
+    width: 12%;
 }
 .card-2{
     width: 100%;
     height: 100%;
     margin-left: 1%;
 }
+.card-2 img{
+    width: 10%;
+}
+
 .card-3{
     width: 100%;
     height: 100%;
     margin-left: 1%;
 }
+.card-3 img{
+    width: 12%;
+}
+
 .card-4{
     width: 100%;
     height: 100%;
+}
+.card-4 img{
+    width: 15%;
 }
 .card-5{
     width: 100%;
     height: 100%;
     margin-right: 1%;
+}
+.card-5 img{
+    width: 12%;
 }
 
 .feature-card{
