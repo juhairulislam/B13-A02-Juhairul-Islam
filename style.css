@@ -822,10 +822,15 @@ footer p{
     margin-bottom: 25px;
 }
 
+.host-card-text h3{
+    margin-top: 15px;
+
+}
+
 footer{
     background-image: 100% 100% ;
     background-size:cover;
-    /* background-position: center cover; */
+    background-position:left 100% right 100%;
    
     
 }
@@ -838,7 +843,7 @@ footer{
     width: 60%;
     padding: 20px;
     justify-items: center;
-    font-size: 11px;
+    font-size: 10px;
     
 }
 
