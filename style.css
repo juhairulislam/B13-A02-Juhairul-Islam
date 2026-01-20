@@ -643,7 +643,7 @@ footer p{
     }
 
     .hero-section{
-        background-size: 40% 30%, 100% 100%;
+        background-size: 42% 30%, 100% 100%;
         background-position: center top 30%, top ;
         /* width: 100%; */
       
@@ -832,13 +832,13 @@ footer{
 
 .footer-icon{
     /* border: 2px solid red; */
-    margin-top: 5%;
+    margin-top: 2%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     width: 60%;
     padding: 20px;
     justify-items: center;
-    font-size: 13px;
+    font-size: 11px;
     
 }
 
